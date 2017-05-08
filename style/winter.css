@@ -48,7 +48,7 @@ text-align: center;
     padding-top: 43px;
 }
 
-.nav li a:hover, .nav .active a {
+.nav li a:hover, .nav .active a::nth-child(3) {
 
     border-bottom:1px solid #fff;
 
@@ -85,7 +85,7 @@ text-shadow: -1px -1px 0px #1dabc6;
 }
 
 .main {
-background-image: url('../imags/spring3.jpg');
+background-image: url('../imags/winter.jpg');
 background-repeat: no-repeat;
 background-position: center;
  background-size: cover;
@@ -109,7 +109,7 @@ width: 100%
 
 .main li {
  text-align: center;
-  margin:0 auto;width:20px;line-height:30px;
+  margin:0 auto;width:15px;line-height:30px;
   padding-top: 20%;
 }
 
