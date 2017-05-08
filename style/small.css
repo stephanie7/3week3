@@ -1,0 +1,32 @@
+header {
+padding:10px 5px !important;
+overflow:hidden;
+}
+header div.inner {
+text-align:center;
+}
+
+a.logo { float:none; }
+.nav {
+width:386px;
+margin:auto;
+float:none;
+margin-top:15px;
+}
+.poem {
+display: flex;
+height: 100%;
+width: 100%；
+}
+
+.main li {
+ text-align: center;
+  margin:0 auto;width:10px;line-height:30px;
+  padding-top: 20%;
+  font-size: 18px;
+}
+
+ h1 {
+ text-align: center;
+ margin:0 auto;width:25px;line-height:40px;
+}

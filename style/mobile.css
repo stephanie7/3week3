@@ -1,0 +1,40 @@
+.nav { width:273px ;  }
+.nav li.first {
+background:url("images/TWC_03.jpg") no-repeat center center;
+width:73px;
+
+}
+
+.nav li + li + li + li {
+background:url("images/TWC_06.jpg") no-repeat center center;
+width: 72px;
+
+}
+
+.nav li:nth-child(4n+2) {
+    background: url("images/TWC_04.jpg") no-repeat scroll center center transparent;
+    
+}
+
+.nav li:nth-child(4n+3) {
+    background: url("images/TWC_05.jpg") no-repeat scroll center center transparent;
+}
+
+.nav li {
+	width:64px; 
+}
+
+.nav li.first a { 
+	margin-left:3px;
+}
+
+
+.nav li.last a { 
+	margin-left:-3px;
+}
+
+.nav li a {
+	font-size:16px;
+	padding-top:52px;
+	line-height:1;	
+}
